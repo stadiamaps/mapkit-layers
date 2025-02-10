@@ -14,7 +14,10 @@ public class StadiaMapsTileOverlay: MKTileOverlay {
     let urlSession: URLSession
     let cachePolicy: URLRequest.CachePolicy
 
-    init(apiKey: String, style: MapStyle, useEUEndpoint: Bool = false, cachePolicy: URLRequest.CachePolicy = .useProtocolCachePolicy) {
+    /// Creates a new tile overlay with the given API key and style.
+    ///
+    /// You can optionally force all requests to go to an EU endpoint.
+    public init(apiKey: String, style: MapStyle, useEUEndpoint: Bool = false, cachePolicy: URLRequest.CachePolicy = .useProtocolCachePolicy) {
         self.apiKey = apiKey
         self.style = style
         self.useEUEndpoint = useEUEndpoint
