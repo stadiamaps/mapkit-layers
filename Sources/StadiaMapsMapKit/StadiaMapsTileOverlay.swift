@@ -37,8 +37,9 @@ public class StadiaMapsTileOverlay: MKTileOverlay {
         let host = useEUEndpoint ? "tiles-eu" : "tiles"
 
         let scale = min(style.maxScale, Int(path.contentScaleFactor))
+        let scaleSuffix = scale == 1 ? "" : "@\(scale)x"
 
-        return URL(string: "https://\(host).stadiamaps.com/tiles/\(style.rawValue)/\(path.z)/\(path.x)/\(path.y)\(scale).\(style.suffix)?api_key=\(apiKey)")!
+        return URL(string: "https://\(host).stadiamaps.com/tiles/\(style.rawValue)/\(path.z)/\(path.x)/\(path.y)\(scaleSuffix).\(style.suffix)?api_key=\(apiKey)")!
     }
 
     public override func loadTile(at path: MKTileOverlayPath, result: @escaping (Data?, (any Error)?) -> Void) {
