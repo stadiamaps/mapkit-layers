@@ -4,7 +4,7 @@ This package makes it easy to add raster layers from Stadia Maps to your MapKit 
 
 ## Example
 
-Here's a minimal example of how to use this with an `MKMapView`.
+Here's a minimal example of how to use this with an `MKMapView` on iOS.
 
 ```swift
 import UIKit

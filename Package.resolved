@@ -1,13 +1,13 @@
 {
-  "originHash" : "076f61f12ee8a3d2f6fd9fb2166b29a0423e060a20f90e1742ae2c6328662db6",
+  "originHash" : "3e060eba307d1c9f8e3772b96c73c8a3f7ba67e8767ed01e82bfc89d41194404",
   "pins" : [
     {
       "identity" : "mapkit-caching-tile-overlay",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stadiamaps/mapkit-caching-tile-overlay.git",
+      "location" : "https://github.com/stadiamaps/mapkit-caching-tile-overlay",
       "state" : {
-        "branch" : "main",
-        "revision" : "96381a5ba0031148c7f84bd61f988494f7de2794"
+        "revision" : "0231aaf8c731ab3d5a222562c1f2ce133b8a16f1",
+        "version" : "1.0.2"
       }
     }
   ],
