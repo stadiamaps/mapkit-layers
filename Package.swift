@@ -19,7 +19,7 @@ let package = Package(
             targets: ["StadiaMapsMapKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/stadiamaps/mapkit-caching-tile-overlay", from: "1.0.2")
+        .package(url: "https://github.com/stadiamaps/mapkit-caching-tile-overlay", from: "1.0.3")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
