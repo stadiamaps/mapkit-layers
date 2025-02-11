@@ -1,8 +1,11 @@
-#  Stadia Maps MapKit Raster Overlays
+# ``StadiaMapsMapKit``
 
 Making it easy to add raster layers from Stadia Maps to your MapKit project.
 
-## Example
+## Overview
+
+This project includes subclasses of `MKOverlay` and `MKOverlayRenderer`
+to streamline integrations with Stadia Maps raster tile layers into MapKit apps.
 
 Here's a minimal example of how to use this with an `MKMapView` on iOS.
 
@@ -38,3 +41,13 @@ extension ViewController: MKMapViewDelegate {
     }
 }
 ```
+
+## Topics
+
+### Classes
+
+- ``StadiaMapsTileOverlay``
+
+### Enums
+
+- ``MapStyle``

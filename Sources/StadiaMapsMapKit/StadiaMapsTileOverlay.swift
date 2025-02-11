@@ -3,8 +3,8 @@ import CachingMapKitTileOverlay
 
 /// A tile overlay for rendering raster tiles from Stadia Maps.
 ///
-/// It comes preconfigured with caching, and is designed for easy use with
-/// our [caching MapKit tile overlay renderer](https://github.com/stadiamaps/mapkit-caching-tile-overlay)
+/// This builds upon `MKTileOverlay` but includes better caching.
+/// Use with our [caching MapKit tile overlay renderer](https://github.com/stadiamaps/mapkit-caching-tile-overlay).
 public class StadiaMapsTileOverlay: MKTileOverlay {
     let apiKey: String
     let style: MapStyle
